@@ -1,5 +1,5 @@
 .navbar-link {
-    @apply text-gray-900 hover:text-[#026773]; /* Adjust colors as needed */
+    @apply text-gray-900 hover:text-[#3CA6A6]; /* Adjust colors as needed */
     padding: 0.5rem 1rem;
   }
 
