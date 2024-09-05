@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
-import { Navbar } from "@/components/Navbar";
+import { NavBar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { PopupWidget }  from "@/components/PopupWidget";
 
@@ -23,12 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class">
-          <Navbar />
+          <NavBar />
           <div>{children}</div>
           <Footer />
           <PopupWidget />
-        </ThemeProvider>
       </body>
     </html>
   );
