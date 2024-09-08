@@ -36,21 +36,21 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What is ISACA?",
+    answer: "ISACA is a global association of IT professionals dedicated to advancing and certifying information systems governance, control, risk, and cybersecurity.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Why should I join your ISACA chapter?",
+    answer: "Joining our ISACA chapter provides you with opportunities to network with like-minded professionals, gain valuable certifications, and stay up-to-date on the latest industry trends and best practices.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "What kind of events and activities do you organize?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "We host a variety of events, including workshops, seminars, guest lectures, and networking sessions. These events cover a wide range of topics related to cybersecurity, risk management, and governance.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "How can I get involved in the chapter?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "There are many ways to get involved! You can attend our events, volunteer for committees, or join our mentorship program. We encourage all members to participate and contribute to the chapter's success.",
   },
 ];
