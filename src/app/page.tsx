@@ -2,10 +2,9 @@ import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
-import { Video } from "@/components/Video";
 import { Faq } from "@/components/Faq";
 
-import { benefitOne, benefitTwo } from "@/components/data";
+import { benefitOne} from "@/components/data";
 import { Contact } from "@/components/Contact";
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
 
 
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
 
 
       <SectionTitle title="Contact Us">
