@@ -1,7 +1,7 @@
 
 "use client";
 
-import { Button, Navbar} from "flowbite-react";
+import { Button, Navbar, NavbarCollapse} from "flowbite-react";
 import Link from "next/link";
 import "./Navbar.css";
 
@@ -16,13 +16,15 @@ export function NavBar() {
         <Navbar.Toggle />
       </div>
       <div className="navbar-link-group">
+        <NavbarCollapse>
         <Link href="#"  className="navbar-link">
           Home
         </Link>
-        <Link href="#"  className="navbar-link">About</Link>
+        <Link href="#" className="navbar-link">About</Link>
         <Link href="#"  className="navbar-link">Members</Link>
         <Link href="#"  className="navbar-link">Blog</Link>
         <Link href="#"  className="navbar-link">Projects</Link>
+        </NavbarCollapse>
         </div>
     </Navbar>
   );
