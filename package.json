@@ -23,12 +23,16 @@
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",
+    "clsx": "^2.1.1",
     "flowbite-react": "^0.10.1",
+    "framer-motion": "^11.5.4",
     "next": "14.2.3",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.51.4"
+    "react-hook-form": "^7.51.4",
+    "simplex-noise": "^4.0.3",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@types/node": "^20",
