@@ -6,11 +6,15 @@ import { Faq } from "@/components/Faq";
 
 import { benefitOne} from "@/components/data";
 import { Contact } from "@/components/Contact";
+import { About } from "@/components/About";
 export default function Home() {
   return (
     <Container>
       <Hero />
-
+      <SectionTitle title="About Our ISACA Chapter">
+      Have questions? Want to get involved? Reach out to us today!
+      </SectionTitle>
+      <About />
 
       <Benefits data={benefitOne} />
 
