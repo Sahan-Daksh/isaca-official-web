@@ -3,7 +3,7 @@ import {Card, Label, Textarea, Button, TextInput } from "flowbite-react";
 export function Contact() {
   return (
     <>
-    <Card>
+    <Card className="max-w-xl ml-[32%] pr-[8%]">
     <form className="flex max-w-md flex-col gap-4 ml-[35%] py-10">
       <div>
         <div className="mb-2 block">
