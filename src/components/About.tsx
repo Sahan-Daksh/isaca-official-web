@@ -2,7 +2,7 @@ import { Card } from "flowbite-react";
 
 export function About() {
   return (
-    <Card className="max-w-sm" imgSrc="/images/blog/image-4.jpg" horizontal>
+    <Card className="max-w-sm ml-[32%]" imgSrc="/images/blog/image-4.jpg" horizontal>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Our Vision
       </h5>

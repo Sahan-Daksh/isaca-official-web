@@ -1,10 +1,9 @@
-"use client";
-
-import { Label, Textarea, Button, TextInput } from "flowbite-react";
+import {Card, Label, Textarea, Button, TextInput } from "flowbite-react";
 
 export function Contact() {
   return (
     <>
+    <Card>
     <form className="flex max-w-md flex-col gap-4 ml-[35%] py-10">
       <div>
         <div className="mb-2 block">
@@ -32,6 +31,7 @@ export function Contact() {
       </div>
       <Button type="submit">Submit</Button>
     </form>
+    </Card>
     
     </>
     

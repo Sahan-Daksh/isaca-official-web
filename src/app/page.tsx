@@ -12,7 +12,7 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle title="About Our ISACA Chapter">
-      Have questions? Want to get involved? Reach out to us today!
+      Your gateway to a successful cybersecurity career.
       </SectionTitle>
       <About />
 
